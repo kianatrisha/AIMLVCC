@@ -1,0 +1,390 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing:  border-box;
+
+
+}
+.wrapper {
+	width: 100%;
+  margin: 0 auto;
+}
+body{
+  font-family: 'Sulphur Point', sans-serif;
+}
+h1, h2, h3, h4{
+  font-family: 'Poppins', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+nav{
+    display: flex;
+    background-color:rgba(255, 217, 0, 0.795);
+    min-height: 8vh ;
+	  width: 100%;
+	  z-index: 10;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    
+    
+}
+.logo a {
+    font-size: 20px;
+    color: black;
+    letter-spacing: 4px;
+}
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    line-height: 100px;
+    flex: 1;
+}
+.menu-items a {
+    text-decoration: none;
+    font-family: poppins;
+    letter-spacing: 4px;
+    font-size: 15px;
+    margin: 0 10px;
+    color: black;
+}
+.menu-items a:hover{
+    color: white;
+}
+.menu-items li{
+    list-style: none;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+} 
+.burger{
+    display: none;
+}
+.benner{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+
+}   
+
+
+.cont-section{
+    width: 100%;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(school2.jpg) no-repeat;
+    background-size: cover;
+    display:  flex;
+    justify-content: center;
+    align-items:  center;
+
+  
+}
+.cont-info
+{
+    color: #fff;
+    max-width:500px;
+    line-height: 65px;
+    padding-left:  50px;
+    font-size: 18px;
+    background: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 50%;
+    left:30% ;
+    transform:  translate(-50%,-50%);
+}
+.cont-info i{
+  margin-right: 20px;
+  font-size: 25px;
+  color: #fff;
+}
+.cont-form
+{
+  max-width:  700px;
+  margin-right: 50px
+}
+.cont-info .CONTACT-form{
+  flex: 1;
+}
+.cont-form h1
+{
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  text-transform : uppercase;
+  margin-bottom: 30px;
+}
+.cont-form .text-box
+{
+  background: #000;
+  color: #fff;
+  border: none;
+  width:  calc(50% - 10px);
+  height: 50px;
+  padding: 12px;
+  font-size:  15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba (0, 0 ,0 , 0.1);
+  margin-bottom: 20px;
+  opacity: 0,9;
+}
+.cont-form .text-box  .frist-child
+{
+ margin-right: 15px;
+}
+.cont-form textarea
+{
+background: #000;
+color: #fff;
+border: none;
+width: 100%;
+padding: 12px;
+font-size:15px;
+max-height: 200px;
+max-height: 400px;
+resize: vertical;
+border-radius:  5px;
+box-shadow:  0  1px 1px rgba(0,0,0, 0.1);
+margin-bottom: 20px
+opacity 0,9;
+}
+.cont-form .send-btn:hover{
+    color: white;
+}
+  .cont-section{
+    flex-direction: row;
+  }
+.cont-info, .CONTACT-form{
+    margin: 30px 50px;
+}
+
+.cont-form  h2{
+ font-size:  30px;
+}
+
+.cont-form .text-box{
+ width: 100%;
+}
+
+
+.abt{
+ display: flex;
+ flex-direction: column;
+  text-align: center;  
+  display: flex;
+	width: 100%;
+	position: relative;
+	top: 300px;
+  height: 600px;
+  background-color: rgba(0, 89, 255, 0.589);
+  color:black; 
+}
+.abt h1{
+  background-color: rgba(151, 185, 247, 0.712);
+}
+
+.main2{
+  display: flex;
+  padding: 2% 0;
+}
+
+.mission, .vision{
+  background-color: rgba(165, 159, 248, 0.808);
+  margin:0 2%;
+}
+.mission{
+  padding: 10%;
+
+  
+}
+.vision{
+  padding: 10%;
+}
+.mission p, .vision p{
+  color: #000;
+  font-size: 20px;
+}
+
+
+.aimtroduction {
+  display: flex;
+width: 100%;
+position: relative;
+top: 450px;
+  height: 400px;
+  background-color: rgba(115, 187, 255, 0.822);
+  text-align: center;
+  color:rgb(0, 0, 0);
+  flex-direction: column;
+  margin: auto;
+}
+
+.aimtroduction h2{
+font-family: poppins;
+letter-spacing: 4px;
+padding-top: 30px;
+font-size: 40px;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.aimtroduction p{
+  padding-inline: 10%;
+  font-size: 20px;
+}
+
+.objectiives ul li{
+  list-style: none;  
+  
+}
+.objt{
+  font-size: 20px; 
+  padding-inline: 10%;
+}
+
+.learn-more{
+  background-color: rgba(255, 255, 255, 0.5); 
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: fit-content;
+  margin: auto;
+}
+
+.Abtour {
+  display: flex;
+  width: 100%;
+  position: relative;
+  top: 450px;
+  height: 400px;
+  background-color: rgba(190, 149, 255, 0.842);
+  text-align: center;
+  color:black;
+  flex-direction: column;
+}
+
+.Abtour h2{
+  display: flex;
+  font-family: poppins;
+  letter-spacing: 2px;
+  padding-top: 30px;
+  font-size: 40px;
+  margin: 0;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+}
+.Abtour p{
+  padding-inline: 10%;
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .logo a{
+      font-size: 10px;
+  }
+  .menu-items a{
+      letter-spacing: 2px;
+    font-size: 9px;
+  }
+  .banneryarn{
+      width: 100%;
+      height: 50%;
+      position: fixed;
+      top: 75px;
+      
+  }
+  .banneryarn h2 {
+      padding-top: 8%;
+      font-size: 60px;
+      
+      }
+  .main h1{
+    font-size: 30px;
+  }
+}
+  
+
+
+
+@media screen and (max-width: 700px) {
+  body{
+      overflow-x: hidden;
+  }
+  .menu-items{
+      position: absolute;
+      right: 0px;
+      height: 96vh;
+      top: 8vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width:35%;  
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+      background-color: rgba(255, 217, 0, 0.795);
+  }
+
+  .menu-items li{
+      opacity: 0;
+  }
+  .burger{
+      display: block;
+      cursor: pointer;
+  }
+  .banneryarn{
+     
+      width: 100%;
+      height: 50%;
+      position: fixed;
+      top: 50px;
+      
+  }
+  .banneryarn h2 {
+      padding-top: 8%;
+      font-size: 30px;
+      
+  }
+  .main2{
+    flex-direction: column;
+  }
+  .vision, .mission{
+    margin: 10%;
+  }
+
+}
+
+.nav-active{
+  transform: translateX(0%);
+}
+@keyframes menuItemsFade{
+  from{
+      opacity:0;
+      transform: translateX(50px);
+  }
+  to{
+      opacity: 1;
+      transform: translateX(0px);
+  }
+}
